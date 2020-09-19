@@ -8,7 +8,7 @@ export let options = {
       executor: 'constant-arrival-rate',
       rate: 1,
       timeUnit: '1s',
-      duration: '1h',
+      duration: '1m',
       preAllocatedVUs: 1,
       exec: 'openMainPage',
     },
@@ -17,7 +17,7 @@ export let options = {
       executor: 'constant-arrival-rate',
       rate: 1000,
       timeUnit: '1h',
-      duration: '1h',
+      duration: '1m',
       preAllocatedVUs: 1,
       exec: 'makeAnOrder',
     }

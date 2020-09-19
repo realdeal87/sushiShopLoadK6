@@ -33,8 +33,6 @@ export function openMainPageAndMakeAnOrder() {
     "body not contains 'error'": (res) => res.body.includes('error') == false,
   });
 
-  sleep(1);
-
   let headers = {'Content-Type': 'application/json'};
   let data = {
     "name": "My Name",
